@@ -45,7 +45,7 @@ function read() {
 }
 
 function App(){
-    const [data, setData]   = React.useState({header:0,left:0,article:0,right:0,footer:0}); // this is defining the data that is holding all of the states of all of the sections of the holy grail
+    const [data, setData]   = React.useState({header:0,left:0,article:0,right:0,footer:0});    
 
     React.useEffect(() => {
         // read db data & update UI

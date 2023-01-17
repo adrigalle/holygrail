@@ -12,7 +12,7 @@ function PlusMinus(props){
     </>);
 }
 
-function Data(props){
+function Display(props){
     return (<div>
         Header:  {props.data.header}, 
         Left:    {props.data.left}, 
